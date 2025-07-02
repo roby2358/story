@@ -1,3 +1,11 @@
 {
-  "agentCanUpdateSnapshot": true
+  "agentCanUpdateSnapshot": true,
+  "terminal": {
+    "shell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "shellArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-Command"],
+    "useWsl": false,
+    "integrated": {
+      "windowsEnableConpty": true
+    }
+  }
 }
